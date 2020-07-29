@@ -1,0 +1,99 @@
+﻿.footer .fixed-container{
+    background-color: #333333;
+    border-radius: 10px;
+    padding: 50px;
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+}
+
+.left-container{
+    width: 300px;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.footer-left-list__item{
+    margin-bottom: 25px;
+}
+
+.footer-left-list__item:last-child{
+    margin-bottom: 0;
+}
+
+.center-container{
+    width: 360px;
+    color: #ffffff;
+    line-height: 1.5;
+    margin-left: 130px;
+    margin-right: 250px;
+}
+
+.footer-center-list__item{
+    margin-bottom: 25px;
+}
+
+.footer-center-list__item:nth-child(n+1){
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right-list__item{
+    margin-bottom: 10px;
+}
+
+.footer-right-list__item:last-child{
+    margin-bottom: 0;
+}
+
+.footer-right-list__link {
+    display: block;
+    width: 25px;
+    height: 30px;
+}
+
+.first-social {
+    background-image: url(..//img/tripadvisor.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}
+
+.second-social {
+    background-image: url(..//img/twitter.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}
+
+.third-social {
+    background-image: url(..//img/facebook.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}
+
+.forth-social {
+    background-image: url(..//img/vk.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}
+
+.fifth-social {
+    background-image: url(..//img/google-plus.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}
+
+.sun-image {
+    position: absolute;
+    bottom: -4px;
+    right: 180px;
+}
+
+.sun-image img {
+    max-width: 220px;
+}

@@ -1,0 +1,75 @@
+﻿.logo-link .fa-chevron-right {
+    font-size: 12px;
+}
+
+.logo {
+    display: inline-flex;
+    max-width: 500px;
+    align-items: center;
+    margin-top: 30px;
+}
+  
+.logo img {
+    margin-right: 25px;
+    border-radius: 10px;
+}
+  
+.logo a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 22px;
+    font-weight: bold;
+}
+  
+.logo-link {
+    float: right;
+    text-decoration: none;
+    margin: 50px 10px 0 0;
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 9px;
+    align-items: center;
+    margin-top: 25px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.navigation-list {
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+}
+
+.navigation-item__list{
+    color: #333333;
+}
+
+.navigation-form {
+    margin-right: 20px;
+    position: relative;
+}
+
+.navigation-form__input{
+    width: 350px;
+    height: 45px;
+    background-color: #F1F1F1;
+    border: 1px solid #F1F1F1;
+    border-radius: 15px;
+    padding-left: 22px;
+    outline: none;
+}
+
+.navigation-form__button {
+    background-image: url(..//img/search.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 25px;
+    top: 12px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}

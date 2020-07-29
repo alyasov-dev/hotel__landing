@@ -1,0 +1,400 @@
+﻿.reserv-special-container{
+    display: flex;
+}
+
+.inform-container {
+    display: flex;
+    align-items: center;
+}
+
+.d-if {
+    display: inline-flex;
+    align-items: center;
+}
+
+.fa-chevron-right {
+    padding-left: 8px;
+    font-size: 16px;
+}
+
+/*БЫСТРАЯ БРОНЬ*/
+
+.reserv-container {
+    float: left;
+    width: 50%;
+    margin-top: 70px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: lighter;
+    color: #333333;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.reserv-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.reserv-form__input{
+    width: 520px;
+    padding: 25px;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    color: #999999;
+    margin-bottom: 25px;
+    outline: none;
+}
+
+.reserv-form__button {
+    background-color: #CC9933;
+    width: 160px;
+    height: 60px;
+    color: #FFFFFF;
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.reserv-container__parag {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.link {
+    color: #CC9933;
+    margin-right: 5px;
+}
+
+/*СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ*/
+
+.special-container {
+    width: 50%;
+    margin-top: 70px;
+    position: relative;
+}
+
+.special-container img {
+    width: 595px;
+    height: 535px;
+    border-radius: 10px;
+}
+
+.img-container {
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+}
+
+.img-container__title {
+    max-width: 320px;
+    color: #FFFFFF;
+    font-size: 66px;
+    font-family: MullerBold;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+.img-container__price {
+    font-size: 35px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-right: 40px;
+}
+
+
+/*О НАС*/
+
+.about-us {
+    width: 880px;
+    margin-top: 70px;
+}
+
+.about-us__parag {
+    color: #666666;
+    line-height: 1.5;
+    padding-left: 40px;
+}
+
+/*УСЛУГИ*/
+
+.services {
+    margin-top: 65px;
+    width: 100%;
+}
+
+.services-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.servises-item{
+    max-width: 570px;
+    border: 1px solid #f1f1f1;
+}
+
+.servises-item:nth-child(n+3) {
+    margin-top: 25px;
+}
+
+.servises-item img{
+    border-radius: 12px 12px 0 0;
+}
+.services-block {
+    background-color: #FFFFFF;
+    padding: 35px 100px 40px 45px;
+    margin-top: -5px;
+    border-radius: 0 0 12px 12px;
+    position: relative;
+}
+
+.services-block__link {
+    color: #CC9933;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.services-block__text{
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+/*ПРЕИМУЩЕСТВА*/
+.advantages{
+    margin-top: 70px;
+}
+.advantages-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.advantages-item{
+    width: 276px;
+    height: 276px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.advantages-item:nth-child(-n+4){
+    margin-bottom: 20px;
+}
+
+.advantages-item__text{
+    margin-top: 20px;
+    line-height: 1.5;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/*РАЗМЕЩЕНИЕ*/
+.accommodation{
+    margin-top: 70px;
+}
+
+.accommodation-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.accommodation-item{
+    width: 374px;
+    height: 442px;
+    margin-bottom: 20px;
+}
+
+.accommodation-item__img{
+    border-radius: 12px 12px 0 0;
+}
+
+.accommodation-block{
+    background-color: #FFFFFF;
+    margin-top: -5px;
+    border-radius: 0 0 10px 10px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.accommodation-block-stars {
+    position: absolute;
+    top: 42px;
+    right: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accommodation-block__price{
+    padding-top: 36px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.accomodation-block__bold{
+    font-size: 20px;
+}
+
+.accommodation-block__name{
+    margin: 10px 0 10px 0;
+}
+
+.accommodation-block__country{
+    color: #969696;
+}
+
+.accommodation-block__button{
+    width: 100px;
+    color: #CC9933;
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-top: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+/*ВСЕ ВАРИАНТЫ*/
+.accommodation-item__position{
+    width: 366px;
+    position: relative;
+}
+
+
+
+.accommodation-item__position img{
+    border-radius: 10px;
+}
+
+.accommodation-item__position-link{
+    position: absolute;
+    color: #FFFFFF;
+    bottom: 100px;
+    right: 28px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+/*контакты*/
+
+.contacts{
+    margin-top: 70px;
+}
+.contacts-list{
+    width: 475px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 50px 55px 45px 45px;
+}
+
+.contacts-item{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-bottom: 2px solid #CCCCCC;
+    align-items: baseline;
+}
+
+.contacts-item:first-child {
+    padding-top: 0;
+}
+
+.contacts-item:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.contacts-mobile-block{
+    display: flex;
+    flex-wrap: wrap;
+    width: 160px;
+    line-height: 1.5;
+    margin-right: 68px;
+}
+
+.contacts-email-block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 230px;
+    padding-left: 2px;
+    line-height: 1.5;
+}
+
+.contacts-item__span{
+    font-weight: bold;
+    color: #666666;
+    font-size: 22px;
+}
+
+.contacts-item__time{
+    margin-right: 42px;
+}
+
+.contacts-item__button{
+    width: 200px;
+    padding: 20px;
+    color: #CC9933;
+    background-color: #FFFFFF;
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/*НАПИШИТЕ НАМ*/
+
+.write {
+    margin-top: 150px;
+    margin-left: 170px;
+}
+
+.write .title{
+    margin-bottom: 10px;
+}
+
+.write-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.write-form__input{
+    width: 340px;
+    padding: 20px;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+}
+
+.write-form__textarea{
+    width: 340px;
+    height: 110px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    resize: none;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.write-form__button{
+    width: 340px;
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #CC9933;
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}

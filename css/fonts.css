@@ -10,7 +10,7 @@
   
 @font-face {
     font-display: swap;
-    font-family: 'MullerBold';
+    font-family: 'Muller';
     font-style: bold;
     font-weight: 700;
     src: local('MullerBold'), local('Muller-Bold'),
@@ -20,7 +20,7 @@
 
 @font-face {
      font-display: swap;
-     font-family: 'MullerLight';
+     font-family: 'Muller';
      font-style: lighter;
      font-weight: 200;
      src: local('MullerLight'), local('Muller-Light'),

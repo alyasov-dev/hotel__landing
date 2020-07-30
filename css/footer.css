@@ -1,5 +1,5 @@
 ﻿.footer .fixed-container{
-    background-color: #333333;
+    background-color: var(--grey_3_color);
     border-radius: 10px;
     padding: 50px;
     position: relative;
@@ -9,7 +9,7 @@
 
 .left-container{
     width: 300px;
-    color: #ffffff;
+    color: var(--white_color);
     line-height: 1.5;
 }
 
@@ -23,7 +23,7 @@
 
 .center-container{
     width: 360px;
-    color: #ffffff;
+    color: var(--white_color);
     line-height: 1.5;
     margin-left: 130px;
     margin-right: 250px;
@@ -56,6 +56,13 @@
     display: block;
     width: 25px;
     height: 30px;
+    transition-property: transform;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+}
+
+.footer-right-list__link:hover{
+    transform: scale(1.1);
 }
 
 .first-social {

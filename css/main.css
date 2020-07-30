@@ -9,12 +9,10 @@
 
 .d-if {
     display: inline-flex;
-    align-items: center;
 }
 
-.fa-chevron-right {
+.fa-angle-right {
     padding-left: 8px;
-    font-size: 16px;
 }
 
 /*БЫСТРАЯ БРОНЬ*/
@@ -28,7 +26,7 @@
 .title {
     font-size: 40px;
     font-weight: lighter;
-    color: #333333;
+    color: var(--grey_3_color);
     padding-left: 30px;
     padding-bottom: 20px;
 }
@@ -41,22 +39,29 @@
 .reserv-form__input{
     width: 520px;
     padding: 25px;
-    border: 1px solid #f1f1f1;
+    border: 1px solid var(--grey_f1_color);
     border-radius: 10px;
-    color: #999999;
+    color: var(--grey_9_color);
     margin-bottom: 25px;
     outline: none;
 }
 
 .reserv-form__button {
-    background-color: #CC9933;
+    background-color: var(--orange_color);
     width: 160px;
     height: 60px;
-    color: #FFFFFF;
-    border: 1px solid #CC9933;
+    color: var(--white_color);
+    border: 1px solid var(--orange_color);
     border-radius: 10px;
     outline: none;
     cursor: pointer;
+    transition-property: background-color, border;
+    transition: .3s ease-in-out;
+}
+
+.reserv-form__button:hover {
+    background-color: var(--grey_3_color);
+    border: 1px solid var(--grey_3_color);
 }
 
 .reserv-container__parag {
@@ -65,7 +70,7 @@
 }
 
 .link {
-    color: #CC9933;
+    color: var(--orange_color);
     margin-right: 5px;
 }
 
@@ -91,7 +96,7 @@
 
 .img-container__title {
     max-width: 320px;
-    color: #FFFFFF;
+    color: var(--white_color);
     font-size: 66px;
     font-family: MullerBold;
     line-height: 1;
@@ -100,7 +105,7 @@
 
 .img-container__price {
     font-size: 35px;
-    color: #FFFFFF;
+    color: var(--white_color);
     opacity: 0.5;
     margin-right: 40px;
 }
@@ -114,7 +119,7 @@
 }
 
 .about-us__parag {
-    color: #666666;
+    color: var(--grey_6_color);
     line-height: 1.5;
     padding-left: 40px;
 }
@@ -129,12 +134,15 @@
 .services-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .servises-item{
     max-width: 570px;
-    border: 1px solid #f1f1f1;
+    border: 1px solid var(--grey_f1_color);
+}
+
+.servises-item:nth-child(odd) {
+    margin-right: 30px;
 }
 
 .servises-item:nth-child(n+3) {
@@ -144,8 +152,9 @@
 .servises-item img{
     border-radius: 12px 12px 0 0;
 }
+
 .services-block {
-    background-color: #FFFFFF;
+    background-color: var(--white_color);
     padding: 35px 100px 40px 45px;
     margin-top: -5px;
     border-radius: 0 0 12px 12px;
@@ -153,35 +162,41 @@
 }
 
 .services-block__link {
-    color: #CC9933;
+    color: var(--orange_color);
     font-size: 22px;
     font-weight: normal;
 }
 
-.services-block__text{
+.services-block__text {
     margin-top: 15px;
     line-height: 1.5;
 }
 
 /*ПРЕИМУЩЕСТВА*/
-.advantages{
+.advantages {
     margin-top: 70px;
 }
-.advantages-list{
+
+.advantages-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-}
-.advantages-item{
-    width: 276px;
-    height: 276px;
-    background-color: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    border-radius: 10px;
-    padding: 40px;
 }
 
-.advantages-item:nth-child(-n+4){
+.advantages-item {
+    width: 276px;
+    height: 276px;
+    background-color: var(--white_color);
+    border: 1px solid var(--white_color);
+    border-radius: 10px;
+    padding: 40px;
+    margin-right: 22px;
+}
+
+.advantages-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.advantages-item:nth-child(-n+4) {
     margin-bottom: 20px;
 }
 
@@ -200,13 +215,17 @@
 .accommodation-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .accommodation-item{
     width: 374px;
     height: 442px;
     margin-bottom: 20px;
+    margin-right: 24px;
+}
+
+.accommodation-item:nth-child(3n) {
+    margin-right: 0;
 }
 
 .accommodation-item__img{
@@ -214,7 +233,7 @@
 }
 
 .accommodation-block{
-    background-color: #FFFFFF;
+    background-color: var(--white_color);
     margin-top: -5px;
     border-radius: 0 0 10px 10px;
     padding-left: 40px;
@@ -251,14 +270,23 @@
 
 .accommodation-block__button{
     width: 100px;
-    color: #CC9933;
-    border: 1px solid #CC9933;
+    color: var(--orange_color);
+    border: 1px solid var(--orange_color);
     border-radius: 10px;
-    background-color: #FFFFFF;
+    background-color: var(--white_color);
     padding: 10px;
     margin-top: 20px;
     outline: none;
     cursor: pointer;
+    transition-property: color, background-color, transform;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+}
+
+.accommodation-block__button:hover {
+    color: var(--white_color);
+    background-color: var(--orange_color);
+    transform: scale(1.1);
 }
 
 /*ВСЕ ВАРИАНТЫ*/
@@ -267,15 +295,13 @@
     position: relative;
 }
 
-
-
 .accommodation-item__position img{
     border-radius: 10px;
 }
 
 .accommodation-item__position-link{
     position: absolute;
-    color: #FFFFFF;
+    color: var(--white_color);
     bottom: 100px;
     right: 28px;
     font-size: 22px;
@@ -289,7 +315,7 @@
 }
 .contacts-list{
     width: 475px;
-    background-color: #FFFFFF;
+    background-color: var(--white_color);
     border-radius: 10px;
     padding: 50px 55px 45px 45px;
 }
@@ -299,7 +325,7 @@
     justify-content: space-between;
     padding-bottom: 25px;
     padding-top: 25px;
-    border-bottom: 2px solid #CCCCCC;
+    border-bottom: 2px solid var(--grey_f1_color);
     align-items: baseline;
 }
 
@@ -330,7 +356,7 @@
 
 .contacts-item__span{
     font-weight: bold;
-    color: #666666;
+    color: var(--grey_6_olor);
     font-size: 22px;
 }
 
@@ -341,13 +367,22 @@
 .contacts-item__button{
     width: 200px;
     padding: 20px;
-    color: #CC9933;
-    background-color: #FFFFFF;
-    border: 1px solid #CC9933;
+    color: var(--orange_color);
+    background-color: var(--white_color);
+    border: 1px solid var(--orange_color);
     border-radius: 10px;
     outline: none;
     cursor: pointer;
     margin-top: 20px;
+    transition-property: color, background-color, transform;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+}
+
+.contacts-item__button:hover {
+    color: var(--white_color);
+    background-color: var(--orange_color);
+    transform: scale(1.1);
 }
 
 /*НАПИШИТЕ НАМ*/
@@ -373,7 +408,7 @@
     outline: none;
     margin-bottom: 20px;
     border-radius: 10px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid var(--white_color);
 }
 
 .write-form__textarea{
@@ -381,7 +416,7 @@
     height: 110px;
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid var(--white_color);
     resize: none;
     margin-bottom: 20px;
     outline: none;
@@ -391,10 +426,18 @@
     width: 340px;
     padding: 20px;
     text-align: center;
-    color: #FFFFFF;
-    background-color: #CC9933;
-    border: 1px solid #CC9933;
+    color: var(--white_color);
+    background-color: var(--orange_color);
+    border: 1px solid var(--orange_color);
     border-radius: 10px;
     outline: none;
     cursor: pointer;
+    transition-property: background-color, border;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+}
+
+.write-form__button:hover {
+    background-color: var(--grey_3_color);
+    border: 1px solid var(--grey_3_color);
 }

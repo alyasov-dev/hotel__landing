@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: #F1F1F1;
+  background-color: var(--grey_f1_color);
   font-family: 'Muller';
   color: black;
   font-size: 16px;
@@ -44,4 +44,13 @@ ul {
 .fixed-container {
   max-width: 1170px;
   margin: 0 auto;
+}
+
+:root {
+  --white_color: #ffffff;
+  --orange_color: #cc9933;
+  --grey_9_color: #999999;
+  --grey_6_color: #666666;
+  --grey_3_color: #333333;
+  --grey_f1_color: #F1F1F1;
 }

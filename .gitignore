@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-﻿
-=======
 
->>>>>>> d8d3ed2f01ccb6194ba689527a2456752e4fe595
-# Created by https://www.toptal.com/developers/gitignore/api/macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos
+# Created by https://www.toptal.com/developers/gitignore/api/osx
+# Edit at https://www.toptal.com/developers/gitignore?templates=osx
 
-### macOS ###
+### OSX ###
 # General
 .DS_Store
 .AppleDouble
@@ -34,8 +30,4 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-<<<<<<< HEAD
-# End of https://www.toptal.com/developers/gitignore/api/macos
-=======
-# End of https://www.toptal.com/developers/gitignore/api/macos
->>>>>>> d8d3ed2f01ccb6194ba689527a2456752e4fe595
+# End of https://www.toptal.com/developers/gitignore/api/osx

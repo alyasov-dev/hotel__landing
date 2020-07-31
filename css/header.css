@@ -23,6 +23,16 @@
     margin: 50px 10px 0 0;
 }
 
+.logo-link::before {
+    content:"\f0a9";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    padding-right: 5px;
+}
+
 .navigation {
     display: flex;
     width: 100%;

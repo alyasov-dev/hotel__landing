@@ -54,3 +54,19 @@ ul {
   --grey_3_color: #333333;
   --grey_f1_color: #F1F1F1;
 }
+
+.active_link {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: .3s;
+  -webkit-transition: .3s;
+  padding-bottom: 2px;
+}
+
+.active_link:hover {
+  background-size: 100% 2px;
+  color: var(--orange_color: #cc9933;)
+}
